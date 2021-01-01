@@ -1,3 +1,3 @@
 # delfine
 
-jena-intro  &mdash introductory tasks implemented using Apache Jena
+jena-intro  &mdash; introductory tasks implemented using Apache Jena
