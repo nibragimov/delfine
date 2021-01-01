@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/hwicaksono/ontologies/2020/6/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/hwicaksono/ontologies/2020/6/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:owl1="http://www.virtual-factory.de/owl/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hwicaksono/ontologies/2020/6/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/hasSupplier -->
+
+    <owl:ObjectProperty rdf:about="http://www.virtual-factory.de/owl/hasSupplier"/>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/isOperatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.virtual-factory.de/owl/isOperatedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.virtual-factory.de/owl/Machine"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.virtual-factory.de/owl/isOperatedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.virtual-factory.de/owl/Machine"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.virtual-factory.de/owl/Operator"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.virtual-factory.de/owl/isOperatedBy"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">3</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.virtual-factory.de/owl/Operator"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/operates -->
+
+    <owl:ObjectProperty rdf:about="http://www.virtual-factory.de/owl/operates">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.virtual-factory.de/owl/operates"/>
+                <owl:someValuesFrom rdf:resource="http://www.virtual-factory.de/owl/Operator"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.virtual-factory.de/owl/operates"/>
+                <owl:someValuesFrom rdf:resource="http://www.virtual-factory.de/owl/Machine"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/subDepartmentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.virtual-factory.de/owl/subDepartmentOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.virtual-factory.de/owl/Department"/>
+        <rdfs:range rdf:resource="http://www.virtual-factory.de/owl/Department"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Department -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/Department"/>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/HumanResource -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/HumanResource">
+        <owl:equivalentClass rdf:resource="http://www.virtual-factory.de/owl/Personnel"/>
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Machine -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/Machine">
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/ManufacturingResource -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Operator -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/Operator">
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/HumanResource"/>
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/Personnel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Oven -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/Oven">
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/Machine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/OvenHeatCorp -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/OvenHeatCorp">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.virtual-factory.de/owl/hasSupplier"/>
+                <owl:hasValue rdf:resource="http://www.virtual-factory.de/owl/HeatCorp"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/Oven"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Personnel -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/Personnel">
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/ProductionFacility -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/ProductionFacility">
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/ProductionMachine -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/ProductionMachine">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.virtual-factory.de/owl/Machine"/>
+                    <rdf:Description rdf:about="http://www.virtual-factory.de/owl/ProductionFacility"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/Machine"/>
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+        <rdfs:subClassOf rdf:resource="http://www.virtual-factory.de/owl/ProductionFacility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Supplier -->
+
+    <owl:Class rdf:about="http://www.virtual-factory.de/owl/Supplier"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/DepA -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/DepA">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Department"/>
+        <owl1:subDepartmentOf rdf:resource="http://www.virtual-factory.de/owl/DepB"/>
+        <owl1:subDepartmentOf rdf:resource="http://www.virtual-factory.de/owl/DepC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/DepB -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/DepB">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Department"/>
+        <owl1:subDepartmentOf rdf:resource="http://www.virtual-factory.de/owl/DepC"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/DepC -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/DepC">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Department"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/HeatCorp -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/HeatCorp">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Supplier"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/MaxSmith -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/MaxSmith">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/HumanResource"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Operator"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Personnel"/>
+        <owl:sameAs rdf:resource="http://www.virtual-factory.de/owl/Smith"/>
+        <owl1:operates rdf:resource="http://www.virtual-factory.de/owl/Oven.TX100"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Oven.TX100 -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/Oven.TX100">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Machine"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Oven"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/Smith -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/Smith">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/HumanResource"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Operator"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Personnel"/>
+        <owl1:operates rdf:resource="http://www.virtual-factory.de/owl/Oven.TX100"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.virtual-factory.de/owl/WillSmith -->
+
+    <owl:NamedIndividual rdf:about="http://www.virtual-factory.de/owl/WillSmith">
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/HumanResource"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/ManufacturingResource"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Operator"/>
+        <rdf:type rdf:resource="http://www.virtual-factory.de/owl/Personnel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.virtual-factory.de/owl/Smith"/>
+            <rdf:Description rdf:about="http://www.virtual-factory.de/owl/WillSmith"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
