@@ -1,0 +1,201 @@
+Prefix(:=<http://www.semanticweb.org/hwicaksono/ontologies/2020/6/untitled-ontology-7#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(owl1:=<http://www.virtual-factory.de/owl/>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/hwicaksono/ontologies/2020/6/untitled-ontology-7>
+
+Declaration(Class(owl1:Car))
+Declaration(Class(owl1:Department))
+Declaration(Class(owl1:HeavyVehicle))
+Declaration(Class(owl1:HumanResource))
+Declaration(Class(owl1:Machine))
+Declaration(Class(owl1:ManufacturingResource))
+Declaration(Class(owl1:Operator))
+Declaration(Class(owl1:Oven))
+Declaration(Class(owl1:OvenHeatCorp))
+Declaration(Class(owl1:Personnel))
+Declaration(Class(owl1:ProductionFacility))
+Declaration(Class(owl1:ProductionMachine))
+Declaration(Class(owl1:Supplier))
+Declaration(ObjectProperty(owl1:drives))
+Declaration(ObjectProperty(owl1:hasSupplier))
+Declaration(ObjectProperty(owl1:isOperatedBy))
+Declaration(ObjectProperty(owl1:operates))
+Declaration(ObjectProperty(owl1:subDepartmentOf))
+Declaration(NamedIndividual(owl1:CarA))
+Declaration(NamedIndividual(owl1:CraneA))
+Declaration(NamedIndividual(owl1:DepA))
+Declaration(NamedIndividual(owl1:DepB))
+Declaration(NamedIndividual(owl1:DepC))
+Declaration(NamedIndividual(owl1:HeatCorp))
+Declaration(NamedIndividual(owl1:MaxSmith))
+Declaration(NamedIndividual(owl1:Oven.TX100))
+Declaration(NamedIndividual(owl1:PersonA))
+Declaration(NamedIndividual(owl1:PersonB))
+Declaration(NamedIndividual(owl1:PersonC))
+Declaration(NamedIndividual(owl1:Smith))
+Declaration(NamedIndividual(owl1:WillSmith))
+############################
+#   Object Properties
+############################
+
+# Object Property: owl1:drives (owl1:drives)
+
+ObjectPropertyDomain(owl1:drives owl1:Personnel)
+ObjectPropertyRange(owl1:drives owl1:Machine)
+
+# Object Property: owl1:isOperatedBy (owl1:isOperatedBy)
+
+SymmetricObjectProperty(owl1:isOperatedBy)
+ObjectPropertyDomain(owl1:isOperatedBy owl1:Machine)
+ObjectPropertyDomain(owl1:isOperatedBy ObjectExactCardinality(1 owl1:isOperatedBy owl1:Machine))
+ObjectPropertyRange(owl1:isOperatedBy owl1:Operator)
+ObjectPropertyRange(owl1:isOperatedBy ObjectExactCardinality(3 owl1:isOperatedBy owl1:Operator))
+
+# Object Property: owl1:operates (owl1:operates)
+
+ObjectPropertyDomain(owl1:operates ObjectSomeValuesFrom(owl1:operates owl1:Operator))
+ObjectPropertyRange(owl1:operates ObjectSomeValuesFrom(owl1:operates owl1:Machine))
+
+# Object Property: owl1:subDepartmentOf (owl1:subDepartmentOf)
+
+TransitiveObjectProperty(owl1:subDepartmentOf)
+ObjectPropertyDomain(owl1:subDepartmentOf owl1:Department)
+ObjectPropertyRange(owl1:subDepartmentOf owl1:Department)
+
+
+############################
+#   Classes
+############################
+
+# Class: owl1:Car (owl1:Car)
+
+SubClassOf(owl1:Car owl1:Machine)
+
+# Class: owl1:HeavyVehicle (owl1:HeavyVehicle)
+
+SubClassOf(owl1:HeavyVehicle owl1:Machine)
+
+# Class: owl1:HumanResource (owl1:HumanResource)
+
+EquivalentClasses(owl1:HumanResource owl1:Personnel)
+SubClassOf(owl1:HumanResource owl1:ManufacturingResource)
+
+# Class: owl1:Machine (owl1:Machine)
+
+SubClassOf(owl1:Machine owl1:ManufacturingResource)
+
+# Class: owl1:Operator (owl1:Operator)
+
+SubClassOf(owl1:Operator owl1:HumanResource)
+SubClassOf(owl1:Operator owl1:Personnel)
+
+# Class: owl1:Oven (owl1:Oven)
+
+SubClassOf(owl1:Oven owl1:Machine)
+
+# Class: owl1:OvenHeatCorp (owl1:OvenHeatCorp)
+
+EquivalentClasses(owl1:OvenHeatCorp ObjectHasValue(owl1:hasSupplier owl1:HeatCorp))
+SubClassOf(owl1:OvenHeatCorp owl1:Oven)
+
+# Class: owl1:Personnel (owl1:Personnel)
+
+SubClassOf(owl1:Personnel owl1:ManufacturingResource)
+
+# Class: owl1:ProductionFacility (owl1:ProductionFacility)
+
+SubClassOf(owl1:ProductionFacility owl1:ManufacturingResource)
+
+# Class: owl1:ProductionMachine (owl1:ProductionMachine)
+
+EquivalentClasses(owl1:ProductionMachine ObjectIntersectionOf(owl1:Machine owl1:ProductionFacility))
+SubClassOf(owl1:ProductionMachine owl1:Machine)
+SubClassOf(owl1:ProductionMachine owl1:ManufacturingResource)
+SubClassOf(owl1:ProductionMachine owl1:ProductionFacility)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: owl1:CarA (owl1:CarA)
+
+ClassAssertion(owl1:Car owl1:CarA)
+
+# Individual: owl1:CraneA (owl1:CraneA)
+
+ClassAssertion(owl1:HeavyVehicle owl1:CraneA)
+
+# Individual: owl1:DepA (owl1:DepA)
+
+ClassAssertion(owl1:Department owl1:DepA)
+ObjectPropertyAssertion(owl1:subDepartmentOf owl1:DepA owl1:DepB)
+ObjectPropertyAssertion(owl1:subDepartmentOf owl1:DepA owl1:DepC)
+
+# Individual: owl1:DepB (owl1:DepB)
+
+ClassAssertion(owl1:Department owl1:DepB)
+ObjectPropertyAssertion(owl1:subDepartmentOf owl1:DepB owl1:DepC)
+
+# Individual: owl1:DepC (owl1:DepC)
+
+ClassAssertion(owl1:Department owl1:DepC)
+
+# Individual: owl1:HeatCorp (owl1:HeatCorp)
+
+ClassAssertion(owl1:Supplier owl1:HeatCorp)
+
+# Individual: owl1:MaxSmith (owl1:MaxSmith)
+
+ClassAssertion(owl1:HumanResource owl1:MaxSmith)
+ClassAssertion(owl1:ManufacturingResource owl1:MaxSmith)
+ClassAssertion(owl1:Operator owl1:MaxSmith)
+ClassAssertion(owl1:Personnel owl1:MaxSmith)
+SameIndividual(owl1:MaxSmith owl1:Smith)
+ObjectPropertyAssertion(owl1:operates owl1:MaxSmith owl1:Oven.TX100)
+
+# Individual: owl1:Oven.TX100 (owl1:Oven.TX100)
+
+ClassAssertion(owl1:Machine owl1:Oven.TX100)
+ClassAssertion(owl1:ManufacturingResource owl1:Oven.TX100)
+ClassAssertion(owl1:Oven owl1:Oven.TX100)
+
+# Individual: owl1:PersonA (owl1:PersonA)
+
+ClassAssertion(owl1:Personnel owl1:PersonA)
+ObjectPropertyAssertion(owl1:drives owl1:PersonA owl1:CarA)
+
+# Individual: owl1:PersonB (owl1:PersonB)
+
+ClassAssertion(owl1:Personnel owl1:PersonB)
+ObjectPropertyAssertion(owl1:drives owl1:PersonB owl1:CarA)
+ObjectPropertyAssertion(owl1:drives owl1:PersonB owl1:CraneA)
+
+# Individual: owl1:PersonC (owl1:PersonC)
+
+ClassAssertion(owl1:Personnel owl1:PersonC)
+
+# Individual: owl1:Smith (owl1:Smith)
+
+ClassAssertion(owl1:HumanResource owl1:Smith)
+ClassAssertion(owl1:ManufacturingResource owl1:Smith)
+ClassAssertion(owl1:Operator owl1:Smith)
+ClassAssertion(owl1:Personnel owl1:Smith)
+ObjectPropertyAssertion(owl1:operates owl1:Smith owl1:Oven.TX100)
+
+# Individual: owl1:WillSmith (owl1:WillSmith)
+
+ClassAssertion(owl1:HumanResource owl1:WillSmith)
+ClassAssertion(owl1:ManufacturingResource owl1:WillSmith)
+ClassAssertion(owl1:Operator owl1:WillSmith)
+ClassAssertion(owl1:Personnel owl1:WillSmith)
+
+
+DifferentIndividuals(owl1:Smith owl1:WillSmith)
+)
