@@ -1,0 +1,15 @@
+CREATE (:Windmill {PlantType: " V-112-3,3", Latitude: "50,312518000°", Longitude: "6,472527000°", Installation: " 31.12.2016", `Rotor diameter`: "112m", `Hub height`: "140m", Power: "3,3 MW", HeightAboveSeaLevel: "647m", PlantName: " V_213532"})
+
+LOAD CSV WITH HEADERS 
+FROM 'file:///v213532_rawdata_10m_2018.csv' AS line
+WITH DISTINCT line, SPLIT(line.Zeitstempel, ['.', ' ']) AS date 
+CREATE (n1 : Power { WindPower : line.Power } ) <- [:Effects ] - (n2:WeatherCondition {Temperature: line.Temperature, WindDirection: line.WindDir, WindSpeed: line.WindSpeed})-[m:On]->(n3:Clock{ Zeitstempel: line. Zeitstempel })<-[r:On]-(n1)
+
+MATCH
+  (a:Windmill),
+  (b:Power)
+CREATE (a)-[r:Generates]->(b)
+RETURN type(r)
+
+
+CALL db.schema.visualization

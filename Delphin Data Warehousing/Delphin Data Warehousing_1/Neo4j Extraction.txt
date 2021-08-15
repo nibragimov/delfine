@@ -1,0 +1,1 @@
+MATCH(n:Windmill)-[b:Generates]->(m:Power)<-[e:Effects]-(w:WeatherCondition)-[c:On]->(o:Clock) return m.WindPower,n.PlantName,o.Zeitstempel,w.Temperature,w.WindSpeed,w.WindDirection

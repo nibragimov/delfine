@@ -1,0 +1,593 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#0> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.2";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "247";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "2992.70";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "11.67";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 03:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#1> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.26";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "261";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3258.80";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.62";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 06:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#2> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "255";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3292.40";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "17.7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 03:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#3> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.48";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "263";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3265.20";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.59";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 02:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#4> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.03";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "256";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3218.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.43";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 05:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#5> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "262";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "2981.90";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "11.24";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 04:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#6> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.3";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "255";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "2932.80";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "11.69";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 04:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#7> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "5.7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "260";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3154.20";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.13";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 07:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#8> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "263";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3281.80";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.63";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 06:20:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#9> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.93";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "259";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3267.20";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.89";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 05:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#10> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8.03";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "252";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3201.90";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.33";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 02:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#11> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "9";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "256";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3277.00";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "16.11";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 00:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#12> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.97";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "257";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3255.10";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.98";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 05:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#13> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.8";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "255";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3289.00";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.77";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 02:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#14> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8.03";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "256";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3260.00";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.88";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 01:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#15> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "247";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3184.40";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.88";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 03:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#16> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.71";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "258";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3277.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.54";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 05:20:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#17> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "252";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3141.70";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.14";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 02:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#18> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.3";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "256";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3103.90";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.42";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 04:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#19> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.03";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "261";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3204.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.87";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 04:20:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#20> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.75";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "258";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3267.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.51";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 05:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#21> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "5.93";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "262";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3027.20";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "11.85";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 08:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#22> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.47";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "253";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3182.10";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "11.98";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 07:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#23> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "256";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3266.60";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.52";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 00:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#24> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.68";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "264";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3274.00";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.47";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 06:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#25> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.07";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "252";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3003.50";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.14";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 04:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#26> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "9";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "248";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3255.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.23";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 00:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#27> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.06";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "265";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3279.80";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.57";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 07:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#28> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.03";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "258";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3277.60";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.97";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 03:20:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#29> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8.4";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "256";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3294.80";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.83";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 00:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#30> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "261";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3278.10";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "15.2";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 03:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#31> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8.07";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "255";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3180.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.35";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 00:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#32> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "249";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3226.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.52";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 01:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#33> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.37";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "264";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3289.70";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.97";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 07:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#34> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "249";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3268.40";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.11";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 01:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#35> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "252";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3259.20";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.48";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 01:40:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#36> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8.07";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "255";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3258.80";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.67";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 02:20:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#37> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "252";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3278.10";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.05";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 01:20:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#38> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "261";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3267.20";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.85";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 07:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#39> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.63";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "259";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3267.00";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "13.49";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 06:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#40> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.4";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "259";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3016.90";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.44";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 06:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#41> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.07";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "258";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3262.70";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.04";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 04:10:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#42> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.93";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "253";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3272.10";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.7";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 02:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#43> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8.39";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "264";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3278.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.53";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 00:20:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#44> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.33";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "265";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3287.80";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.93";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 06:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#45> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.82";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "260";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3224.00";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.58";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 05:50:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#46> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "7.07";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "253";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3284.30";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "14.58";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 03:30:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#47> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "8.2";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "258";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3282.00";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "15.71";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 01:00:00" .
+
+<http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#48> <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#Temperature>
+    "6.03";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindDirection>
+    "258";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindPower>
+    "3194.90";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindSpeed>
+    "12.62";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#WindTurbine>
+    "V_213532";
+  <http://www.semanticweb.org/ontologies/2011/9/Ontology1318785573683.owl#date> "01.01.2018 07:20:00" .
